@@ -18,7 +18,7 @@ jobs:
           npm run build
       - name: Build the project
         run: |
-          cd EeeeWeb/main   # 再度 'main' フォルダに移動
+          cd ./main   # 再度 'main' フォルダに移動
           npm run build     # ビルドコマンドを実行
       - uses: FirebaseExtended/action-hosting-deploy@v0
         with:
