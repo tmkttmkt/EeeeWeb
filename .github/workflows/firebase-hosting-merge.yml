@@ -10,7 +10,8 @@ jobs:
       - uses: actions/checkout@v4
       - name: Install dependencies
         run: |
-          cd EeeeWeb/main   # 'main' フォルダに移動
+          ls -la            # 現在のディレクトリの内容を表示
+          cd ./main   # 'main' フォルダに移動
           npm install       # 依存関係をインストール
           npm run build
       - name: Build the project
