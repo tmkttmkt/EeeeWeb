@@ -1,0 +1,43 @@
+.home-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    height: 100vh;
+    background-color: #f0f0f0;
+}
+
+/* 共通の文字スタイル */
+.text-common {
+    font-weight: bold;
+    color: #333;
+    user-select: none;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+    flex-direction: row;
+}
+
+/* "E" のスタイル */
+.big-e {
+    font-size: 30rem; /* "E" の文字サイズ */
+    margin: 10px;
+    margin-bottom: 0; /* 下マージンを削除 */
+}
+
+/* "project" のスタイル */
+.project-text {
+    font-size: 10rem; /* "project" の文字サイズ */
+    font-weight: normal;
+    color: #666;
+    text-align: center;
+}
+
+.project-text .big-p {
+    font-size: 20rem; /* "P" の文字サイズを大きくする */
+    color: #000000;
+    margin-bottom: 0; /* 下マージンを削除 */
+}
+
+.project-text span {
+    letter-spacing: -0.1em; /* 文字間隔を狭める */
+    margin-bottom: 0; /* 下マージンを削除 */
+}

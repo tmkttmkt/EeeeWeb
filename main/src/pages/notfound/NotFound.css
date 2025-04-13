@@ -1,0 +1,21 @@
+.notfound-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f8f9fa;
+    color: #333;
+    text-align: center;
+}
+
+.notfound-title {
+    font-size: 10rem;
+    font-weight: bold;
+    margin: 0;
+}
+
+.notfound-message {
+    font-size: 2rem;
+    margin: 10px 0;
+}
