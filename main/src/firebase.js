@@ -12,6 +12,14 @@ const firebaseConfig = {
     appId: process.env.REACT_APP_FIREBASE_APP_ID
 };
 
+console.log("Firebase API Key:", firebaseConfig.apiKey);
+console.log("Firebase Auth Domain:", firebaseConfig.authDomain);
+console.log("Firebase Database URL:", firebaseConfig.databaseURL);
+console.log("Firebase Project ID:", firebaseConfig.projectId);
+console.log("Firebase Storage Bucket:", firebaseConfig.storageBucket);
+console.log("Firebase Messaging Sender ID:", firebaseConfig.messagingSenderId);
+console.log("Firebase App ID:", firebaseConfig.appId);
+
 // Firebase アプリを初期化
 const app = initializeApp(firebaseConfig);
 

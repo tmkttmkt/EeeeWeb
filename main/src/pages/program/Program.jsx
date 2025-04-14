@@ -4,7 +4,7 @@ const Program = () => {
     return (
         <div className="home-container">
             <div className="project-text">
-                <span className="big-p">P</span><span>rojectでもいいかな</span>
+                Prigramだよー
             </div>
         </div>
     );

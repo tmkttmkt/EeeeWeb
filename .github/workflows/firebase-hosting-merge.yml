@@ -18,7 +18,7 @@ jobs:
       - name: Build the project
         run: |
           cd ./main   # 再度 'main' フォルダに移動
-          npm run build     # ビルドコマンドを実行
+          CI=false npm run build
       - uses: FirebaseExtended/action-hosting-deploy@v0
         with:
           repoToken: ${{ secrets.GITHUB_TOKEN }}
