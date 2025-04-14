@@ -1,0 +1,45 @@
+.account-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f9f9f9;
+    font-family: Arial, sans-serif;
+}
+
+.account-container h1 {
+    font-size: 2.5rem;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.account-info {
+    text-align: center;
+    font-size: 1.2rem;
+    color: #555;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.account-info p {
+    margin: 10px 0;
+}
+
+.logout-button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    font-size: 1rem;
+    color: #fff;
+    background-color: #007bff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.logout-button:hover {
+    background-color: #0056b3;
+}

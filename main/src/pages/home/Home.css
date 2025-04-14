@@ -5,16 +5,9 @@
     flex-wrap: wrap;
     height: 100vh;
     background-color: #f0f0f0;
+    user-select: none; /* 文字選択を無効化 */
 }
 
-/* 共通の文字スタイル */
-.text-common {
-    font-weight: bold;
-    color: #333;
-    user-select: none;
-    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
-    flex-direction: row;
-}
 
 /* "E" のスタイル */
 .big-e {
