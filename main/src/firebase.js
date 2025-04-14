@@ -2,13 +2,13 @@ import { initializeApp } from "firebase/app";
 import { getAuth } from "firebase/auth";
 
 const firebaseConfig = {
-    apiKey: "YOUR_API_KEY",
-    authDomain: "YOUR_AUTH_DOMAIN",
-    projectId: "YOUR_PROJECT_ID",
-    storageBucket: "YOUR_STORAGE_BUCKET",
-    messagingSenderId: "YOUR_MESSAGING_SENDER_ID",
-    appId: "YOUR_APP_ID"
-};
+    apiKey: "AIzaSyASWo5sU6-PeP7JHAN2CQqiBdwpYkTQ2B0",
+    authDomain: "eeee-web-0.firebaseapp.com",
+    projectId: "eeee-web-0",
+    storageBucket: "eeee-web-0.firebasestorage.app",
+    messagingSenderId: "115136857753",
+    appId: "1:115136857753:web:1c8fb1a9bd46af8b18da08"
+  };
 
 // Firebase アプリを初期化
 const app = initializeApp(firebaseConfig);
