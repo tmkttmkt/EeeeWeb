@@ -4,7 +4,7 @@ const Music = () => {
     return (
         <div className="home-container">
             <div className="project-text">
-            Musicだよー
+            Musicだよー!!
             </div>
         </div>
     );
